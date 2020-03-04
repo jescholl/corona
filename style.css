@@ -1,13 +1,16 @@
 body {
-  font-size: 2em;
+  background: #fc6f03;
+  color: #222222;
+  font-size: 3em;
   text-align: center;
+  font-family:arial,sans-serif;
 }
 
 #main {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
+  width: 70%;
   transform: translate(-50%, -50%);
   padding: 10px;
 }
@@ -22,20 +25,31 @@ body {
   margin: auto;
 }
 
+#disclaimer {
+  font-size: 0.3em;
+  font-style: italic;
+  position: fixed;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%,-5%);
+}
+
 a, a:visited {
-  color: black;
+  color: #222222;
   text-decoration: none;
   margin: 10px;
   padding: 10px;
 }
 
 a:hover {
-  padding: 9px;
-  border: 1px solid black;
+  background: #222222;
+  color: #fc6f03;
+  /* padding: 9px;
+  border: 1px solid black; */
 }
 
 @media only screen and (max-width:767px) {
   body {
-    font-size: 1em;
+    font-size: 2em;
   }
 }
