@@ -14,7 +14,7 @@ var questions = [
     }
   },
   {
-    "question": "Have you gargled with bleech recently?",
+    "question": "Have you gargled with bleach recently?",
     "answers": {
       "yes": "Try a Tidepod chaser.",
       "no": "That's no way to earn a Darwin Award."
